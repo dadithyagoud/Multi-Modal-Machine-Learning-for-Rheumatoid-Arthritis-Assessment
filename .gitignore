@@ -1,0 +1,15 @@
+# Raw data files
+data/
+outputs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
