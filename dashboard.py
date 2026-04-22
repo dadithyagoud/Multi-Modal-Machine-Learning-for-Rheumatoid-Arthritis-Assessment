@@ -574,7 +574,7 @@ class FusionRAPage:
                 st.rerun()
         with col_sl:
             w_a = st.slider(
-                "ClinicalRA weight ← → MetaRA weight",
+                "MetaRA weight ← → ClinicalRA weight",
                 min_value=0.0, max_value=1.0, step=0.05,
                 value=st.session_state.get("fusion_w_a", 0.30),
                 key="fusion_slider"
